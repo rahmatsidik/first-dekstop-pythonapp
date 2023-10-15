@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>treeviewtampil</class>
+ <widget class="QMainWindow" name="treeviewtampil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>916</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DATA MASTER</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>841</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>NIP</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NAMA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DIVISI</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>GRADE</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TANGGAL MASUK</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ALAMAT</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TANGGA LAHIR</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>FOTO</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>441</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>DATA KARYAWAN PT.ANGIN SEPOI - SEPOI</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>510</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TAMPILKAN DATA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
